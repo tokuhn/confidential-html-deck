@@ -1,0 +1,36 @@
+{
+  "deck": "quarterly-account-review",
+  "version": "1",
+  "values": {
+    "client.name": "Northwind Logistics GmbH",
+    "report.period": "Q3 2026",
+    "report.date": "2026-10-30",
+    "presenter.name": "Max Mustermann, Key Account Manager",
+    "report.quarter": 3,
+    "rev.history": [
+      { "period": "Q1 25", "revenue": 2310500 },
+      { "period": "Q2 25", "revenue": 2402000 },
+      { "period": "Q3 25", "revenue": 2520750 },
+      { "period": "Q4 25", "revenue": 2688000 },
+      { "period": "Q1 26", "revenue": 2601300 },
+      { "period": "Q2 26", "revenue": 2745900 },
+      { "period": "Q3 26", "revenue": 2650400 }
+    ],
+    "kpi.active_users": 11240,
+    "kpi.active_users_prev": 11870,
+    "kpi.nps": 27,
+    "kpi.tickets_open": 112,
+    "target.revenue_year": 11200000,
+    "contract.end_date": "2027-06-30",
+    "contract.renewal_value": 10900000,
+    "top_accounts": [
+      { "name": "Freight Forwarding Europe", "revenue": 905000, "change": -0.04 },
+      { "name": "Contract Logistics", "revenue": 712300, "change": 0.03 },
+      { "name": "Air & Sea Freight", "revenue": 488100, "change": -0.09 },
+      { "name": "Customs Services", "revenue": 301000, "change": 0.06 },
+      { "name": "Last Mile Delivery", "revenue": 166000, "change": -0.02 },
+      { "name": "Warehousing Nordics", "revenue": 52000, "change": 0.11 },
+      { "name": "Other", "revenue": 26000, "change": -0.15 }
+    ]
+  }
+}

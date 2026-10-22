@@ -1,0 +1,14 @@
+# Never commit real deck data. Data files exported from a deck end in -data.json.
+*-data.json
+*-data-template.json
+!examples/example-data.json
+
+# Check output and previews generated while working on a deck
+*-check/
+*-preview-sample-data.pdf
+
+# Packaged skill (attached to GitHub releases instead)
+*.skill
+
+__pycache__/
+.DS_Store
